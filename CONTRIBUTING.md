@@ -19,6 +19,29 @@ These are mostly guidelines, not rules. Use your best judgment, and feel free to
 
 * If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/rsksmart/rskj/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
 
+### Code contributions
+
+A code contribution process starts with someone identifying a need for writing code. If you're thinking about making your first contribution, we suggest you take a moment to get in touch and see how your idea fits in the development plan:
+
+* Is it a bug in our issue tracker?
+* Is it a novel idea that should be proposed and discussed first?
+
+#### Review process
+
+Once you know what to do, you can send a pull request to start the review process. We make use of GitHub Checks to ensure all changes meet a certain criteria:
+
+1. The `master` branch is protected and only changeable through pull requests
+1. All unit tests must pass
+1. SonarQube quality gate must be met
+1. A project maintainer must approve the pull request
+1. An authorized merger must merge the pull request
+
+Since this is a security-sensitive project, we encourage everyone to be proactive and participate in the review process. To help collaboration we propose adhering to these conventions:
+
+* **Request changes** only for correctness and security issues.
+* **Comment** when leaving feedback without explicit approval or rejection. This is useful for design and implementation discussions.
+* **Approve** when changes look good from a correctness, security, design and implementation standpoint.
+
 ## Styleguides
 
 ### Pull request etiquette
